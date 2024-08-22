@@ -1,0 +1,7 @@
+$font-size-small: clamp(.75rem, 0.3rem + 3.5vw, 1rem);
+$font-size-regular: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+$font-size-big: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
+
+$transition: all 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+
+$cream-color: #f9f5ef;

@@ -1,0 +1,223 @@
+/* ============================================================ BASE STYLE EDIT BLOCK ============================================================ */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  color: rgb(39, 37, 31);
+  line-height: 100%;
+  font-family: Swiss, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  font-size: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+}
+
+input,
+button,
+textarea {
+  font-family: "Pan Display", sans-serif;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+  outline-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body.lock {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+p {
+  font-family: "Pan Display", sans-serif;
+  font-size: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+  margin: 0;
+}
+
+ol {
+  list-style-type: none;
+  text-align: center;
+  font-size: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+  padding-left: 0;
+}
+
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav__component {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.icon {
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.icon img {
+  height: 100%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.burger {
+  width: 100%;
+}
+
+.shipping-promo {
+  padding: 10px 0;
+  font-weight: 600;
+  text-align: center;
+  background-color: #f9f5ef;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.swiper {
+  height: 25rem;
+}
+
+.swiper-pagination-bullet {
+  width: 1.5rem !important;
+  height: 0.125rem !important;
+  border-radius: unset !important;
+  vertical-align: middle;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.product__stars {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 1em;
+}
+
+.product__info {
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f9f5ef;
+}
+
+.product__price-block {
+  gap: 10px;
+}
+
+.product__title-block {
+  align-items: flex-end;
+}
+
+.product__price-block {
+  align-items: center;
+}
+
+.product__name {
+  font-weight: 700;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.product__title-reviews-amount {
+  color: #0066B4;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.price-old {
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+  text-decoration: line-through;
+}
+
+.price-new {
+  font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
+  color: red;
+  font-weight: 600;
+}

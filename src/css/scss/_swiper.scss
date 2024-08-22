@@ -1,0 +1,23 @@
+@use "variables";
+
+.swiper {
+    height: 25rem;
+}
+
+.swiper-pagination-bullet {
+    width: 1.5rem !important;
+    height: 0.125rem !important;
+    border-radius: unset !important;
+    vertical-align: middle;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+}
