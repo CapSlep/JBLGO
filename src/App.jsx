@@ -6,6 +6,11 @@ import Footer from "./modules/Footer";
 import BuyButton from "./modules/BuyButton";
 
 export default function App() {
+    function buyHandler(event) {
+        event.preventDefault();
+        window.location.href = "https://google.com";
+    }
+
     return (
         <>
             <Header></Header>
@@ -13,7 +18,7 @@ export default function App() {
             <Blog></Blog>
             <Reviews></Reviews>
             <Footer></Footer>
-            <BuyButton></BuyButton>
+            <BuyButton buyHandler={buyHandler}></BuyButton>
         </>
     );
 }

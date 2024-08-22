@@ -18,8 +18,8 @@ export default ({ slidesToShow }) => {
             navigation
             pagination={{ clickable: true }}
             loop={true}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
+            // onSwiper={(swiper) => console.log(swiper)}
+            // onSlideChange={() => console.log("slide change")}
         >
             {slidesToShow.map((slide, index) => {
                 return (

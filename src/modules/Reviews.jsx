@@ -59,8 +59,11 @@ export default function Reviews() {
                             <div className="comment__images-wrapper flex-column">
                                 {comment.images.map((image, index) => {
                                     return (
-                                        <div className="comment__image">
-                                            <img src={image} key={index}></img>
+                                        <div
+                                            className="comment__image"
+                                            key={index}
+                                        >
+                                            <img src={image}></img>
                                         </div>
                                     );
                                 })}
