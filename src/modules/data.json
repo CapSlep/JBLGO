@@ -5,103 +5,235 @@
     "header": {
         "shippingText": "Free Shipping & Return Shipping"
     },
-    "slides": {
-        "slide_1": [
-            "./img/slides/slide_1/slide-1-1.webp",
-            "./img/slides/slide_1/slide-1-2.webp",
-            "./img/slides/slide_1/slide-1-3.webp",
-            "./img/slides/slide_1/slide-1-4.webp",
-            "./img/slides/slide_1/slide-1-5.webp",
-            "./img/slides/slide_1/slide-1-6.webp",
-            "./img/slides/slide_1/slide-1-7.webp",
-            "./img/slides/slide_1/slide-1-8.webp",
-            "./img/slides/slide_1/slide-1-9.webp",
-            "./img/slides/slide_1/slide-1-10.webp",
-            "./img/slides/slide_1/slide-1-11.webp",
-            "./img/slides/slide_1/slide-1-12.webp"
-        ],
-        "slide_2": [
-            "./img/slides/slide_2/slide-2-1.webp",
-            "./img/slides/slide_2/slide-2-2.png",
-            "./img/slides/slide_2/slide-2-3.png",
-            "./img/slides/slide_2/slide-2-4.png",
-            "./img/slides/slide_2/slide-2-5.png",
-            "./img/slides/slide_2/slide-2-6.png",
-            "./img/slides/slide_2/slide-2-7.png",
-            "./img/slides/slide_2/slide-2-8.png",
-            "./img/slides/slide_2/slide-2-9.png",
-            "./img/slides/slide_2/slide-2-10.png",
-            "./img/slides/slide_2/slide-2-11.png",
-            "./img/slides/slide_2/slide-2-12.png"
-        ],
-        "slide_3": [
-            "./img/slides/slide_3/slide-3-1.png",
-            "./img/slides/slide_3/slide-3-2.png",
-            "./img/slides/slide_3/slide-3-3.png",
-            "./img/slides/slide_3/slide-3-4.png",
-            "./img/slides/slide_3/slide-3-5.png",
-            "./img/slides/slide_3/slide-3-6.png",
-            "./img/slides/slide_3/slide-3-7.png",
-            "./img/slides/slide_3/slide-3-8.png",
-            "./img/slides/slide_3/slide-3-9.png",
-            "./img/slides/slide_3/slide-3-10.png",
-            "./img/slides/slide_3/slide-3-11.png",
-            "./img/slides/slide_3/slide-3-12.png"
-        ],
-        "slide_4": [
-            "./img/slides/slide_4/slide-4-1.webp",
-            "./img/slides/slide_4/slide-4-2.png",
-            "./img/slides/slide_4/slide-4-3.png",
-            "./img/slides/slide_4/slide-4-4.png",
-            "./img/slides/slide_4/slide-4-5.png",
-            "./img/slides/slide_4/slide-4-6.png",
-            "./img/slides/slide_4/slide-4-7.png",
-            "./img/slides/slide_4/slide-4-8.png",
-            "./img/slides/slide_4/slide-4-9.png",
-            "./img/slides/slide_4/slide-4-10.png",
-            "./img/slides/slide_4/slide-4-11.png"
-        ],
-        "slide_5": [
-            "./img/slides/slide_5/slide-5-1.png",
-            "./img/slides/slide_5/slide-5-2.png",
-            "./img/slides/slide_5/slide-5-3.png",
-            "./img/slides/slide_5/slide-5-4.png",
-            "./img/slides/slide_5/slide-5-5.png",
-            "./img/slides/slide_5/slide-5-6.png",
-            "./img/slides/slide_5/slide-5-7.png",
-            "./img/slides/slide_5/slide-5-8.png",
-            "./img/slides/slide_5/slide-5-9.png",
-            "./img/slides/slide_5/slide-5-10.png",
-            "./img/slides/slide_5/slide-5-11.png",
-            "./img/slides/slide_5/slide-5-12.png"
-        ],
-        "slide_6": [
-            "./img/slides/slide_6/slide-6-1.png",
-            "./img/slides/slide_6/slide-6-2.png",
-            "./img/slides/slide_6/slide-6-3.png",
-            "./img/slides/slide_6/slide-6-4.png",
-            "./img/slides/slide_6/slide-6-5.png",
-            "./img/slides/slide_6/slide-6-6.png",
-            "./img/slides/slide_6/slide-6-7.png",
-            "./img/slides/slide_6/slide-6-8.png",
-            "./img/slides/slide_6/slide-6-9.png",
-            "./img/slides/slide_6/slide-6-10.png",
-            "./img/slides/slide_6/slide-6-11.png",
-            "./img/slides/slide_6/slide-6-12.png"
-        ],
-        "slide_7": [
-            "./img/slides/slide_7/slide-7-1.png",
-            "./img/slides/slide_7/slide-7-2.png",
-            "./img/slides/slide_7/slide-7-3.png",
-            "./img/slides/slide_7/slide-7-4.png",
-            "./img/slides/slide_7/slide-7-5.png",
-            "./img/slides/slide_7/slide-7-6.png",
-            "./img/slides/slide_7/slide-7-7.png",
-            "./img/slides/slide_7/slide-7-8.png",
-            "./img/slides/slide_7/slide-7-9.png",
-            "./img/slides/slide_7/slide-7-10.png",
-            "./img/slides/slide_7/slide-7-11.png",
-            "./img/slides/slide_7/slide-7-12.png"
-        ]
-    }
+    "products": {
+        "product_1": {
+            "name": "black",
+            "selectorIcon": "./img/slides/black.jpg",
+            "slider": [
+                "./img/slides/slide_1/slide-1-1.webp",
+                "./img/slides/slide_1/slide-1-2.webp",
+                "./img/slides/slide_1/slide-1-3.webp",
+                "./img/slides/slide_1/slide-1-4.webp",
+                "./img/slides/slide_1/slide-1-5.webp",
+                "./img/slides/slide_1/slide-1-6.webp",
+                "./img/slides/slide_1/slide-1-7.webp",
+                "./img/slides/slide_1/slide-1-8.webp",
+                "./img/slides/slide_1/slide-1-9.webp",
+                "./img/slides/slide_1/slide-1-10.webp",
+                "./img/slides/slide_1/slide-1-11.webp",
+                "./img/slides/slide_1/slide-1-12.webp"
+            ]
+        },
+        "product_2": {
+            "name": "violet",
+            "selectorIcon": "./img/slides/violet.webp",
+            "slider": [
+                "./img/slides/slide_2/slide-2-1.webp",
+                "./img/slides/slide_2/slide-2-2.png",
+                "./img/slides/slide_2/slide-2-3.png",
+                "./img/slides/slide_2/slide-2-4.png",
+                "./img/slides/slide_2/slide-2-5.png",
+                "./img/slides/slide_2/slide-2-6.png",
+                "./img/slides/slide_2/slide-2-7.png",
+                "./img/slides/slide_2/slide-2-8.png",
+                "./img/slides/slide_2/slide-2-9.png",
+                "./img/slides/slide_2/slide-2-10.png",
+                "./img/slides/slide_2/slide-2-11.png",
+                "./img/slides/slide_2/slide-2-12.png"
+            ]
+        },
+        "product_3": {
+            "name": "pink",
+            "selectorIcon": "./img/slides/pink.webp",
+            "slider": [
+                "./img/slides/slide_3/slide-3-1.png",
+                "./img/slides/slide_3/slide-3-2.png",
+                "./img/slides/slide_3/slide-3-3.png",
+                "./img/slides/slide_3/slide-3-4.png",
+                "./img/slides/slide_3/slide-3-5.png",
+                "./img/slides/slide_3/slide-3-6.png",
+                "./img/slides/slide_3/slide-3-7.png",
+                "./img/slides/slide_3/slide-3-8.png",
+                "./img/slides/slide_3/slide-3-9.png",
+                "./img/slides/slide_3/slide-3-10.png",
+                "./img/slides/slide_3/slide-3-11.png",
+                "./img/slides/slide_3/slide-3-12.png"
+            ]
+        },
+        "product_4": {
+            "name": "red",
+            "selectorIcon": "./img/slides/red.jpg",
+            "slider": [
+                "./img/slides/slide_4/slide-4-1.webp",
+                "./img/slides/slide_4/slide-4-2.png",
+                "./img/slides/slide_4/slide-4-3.png",
+                "./img/slides/slide_4/slide-4-4.png",
+                "./img/slides/slide_4/slide-4-5.png",
+                "./img/slides/slide_4/slide-4-6.png",
+                "./img/slides/slide_4/slide-4-7.png",
+                "./img/slides/slide_4/slide-4-8.png",
+                "./img/slides/slide_4/slide-4-9.png",
+                "./img/slides/slide_4/slide-4-10.png",
+                "./img/slides/slide_4/slide-4-11.png"
+            ]
+        },
+        "product_5": {
+            "name": "white",
+            "selectorIcon": "./img/slides/white.jpg",
+            "slider": [
+                "./img/slides/slide_5/slide-5-1.png",
+                "./img/slides/slide_5/slide-5-2.png",
+                "./img/slides/slide_5/slide-5-3.png",
+                "./img/slides/slide_5/slide-5-4.png",
+                "./img/slides/slide_5/slide-5-5.png",
+                "./img/slides/slide_5/slide-5-6.png",
+                "./img/slides/slide_5/slide-5-7.png",
+                "./img/slides/slide_5/slide-5-8.png",
+                "./img/slides/slide_5/slide-5-9.png",
+                "./img/slides/slide_5/slide-5-10.png",
+                "./img/slides/slide_5/slide-5-11.png",
+                "./img/slides/slide_5/slide-5-12.png"
+            ]
+        },
+        "product_6": {
+            "name": "camo",
+            "selectorIcon": "./img/slides/camo.jpg",
+            "slider": [
+                "./img/slides/slide_6/slide-6-1.png",
+                "./img/slides/slide_6/slide-6-2.png",
+                "./img/slides/slide_6/slide-6-3.png",
+                "./img/slides/slide_6/slide-6-4.png",
+                "./img/slides/slide_6/slide-6-5.png",
+                "./img/slides/slide_6/slide-6-6.png",
+                "./img/slides/slide_6/slide-6-7.png",
+                "./img/slides/slide_6/slide-6-8.png",
+                "./img/slides/slide_6/slide-6-9.png",
+                "./img/slides/slide_6/slide-6-10.png",
+                "./img/slides/slide_6/slide-6-11.png",
+                "./img/slides/slide_6/slide-6-12.png"
+            ]
+        },
+        "product_7": {
+            "name": "aqua",
+            "selectorIcon": "./img/slides/aqua.webp",
+            "slider": [
+                "./img/slides/slide_7/slide-7-1.png",
+                "./img/slides/slide_7/slide-7-2.png",
+                "./img/slides/slide_7/slide-7-3.png",
+                "./img/slides/slide_7/slide-7-4.png",
+                "./img/slides/slide_7/slide-7-5.png",
+                "./img/slides/slide_7/slide-7-6.png",
+                "./img/slides/slide_7/slide-7-7.png",
+                "./img/slides/slide_7/slide-7-8.png",
+                "./img/slides/slide_7/slide-7-9.png",
+                "./img/slides/slide_7/slide-7-10.png",
+                "./img/slides/slide_7/slide-7-11.png",
+                "./img/slides/slide_7/slide-7-12.png"
+            ]
+        }
+    },
+    "productFeatures": [
+        "Ultra-portable JBL Pro Sound with punchier bass",
+        "Up to 7 hours of playtime plus 2 hours with Playtime Boost",
+        "Waterproof and dustproof"
+    ],
+    "productAvailabillity": "In stock. Estimated delivery in 3 to 4 working days.",
+    "buyReasons": [
+        "Free shipping",
+        "Free Return Shipping",
+        "Lifetime Support"
+    ],
+    "blogs": [
+        {
+            "image": "./img/blog/blog1.webp",
+            "header": "Ultra-portable JBL Pro Sound with punchier bass",
+            "text": "Don't let its little size fool you. The JBL Go 4 packs a serious musical punch, delivering big JBL Pro Sound with punchy bass. Your friends won't believe how much great JBL Pro Sound comes out of such a small speaker."
+        },
+        {
+            "image": "./img/blog/blog2.webp",
+            "header": "Up to 7 hours of playtime plus 2 hours with Playtime Boost",
+            "text": "Don't sweat the small stuff like charging your battery. JBL Go 4 gives you up to 7 hours of playtime on a single charge. Simply tap Playtime Boost to prolong the playtime, adding up to 2 hours to your battery life. It tunes and optimizes the performance for louder and crisper sound."
+        },
+        {
+            "image": "./img/blog/blog3.webp",
+            "header": "Waterproof and dustproof",
+            "text": "The JBL Go 4's IP67 waterproof and dustproof rating ensures this portable speaker can handle almost any environment, from a poolside party to a seaside picnic."
+        }
+    ],
+    "reviewsHeader": "Reviews",
+    "reviewValidation": "Incentivized Review",
+    "comments": [
+        {
+            "header": "Small Size Big Sound",
+            "name": "68eight",
+            "time": "4 months ago",
+            "text": "Great portable speaker.This thing is small enough to carry around without the bulk.Its very rugged with high quality feel.It's great for my job in a industrial environment.The Bluetooth connects without any issues.The buttons are easy to understand and use.Has a braided hook that's well made.The sound is great for the size i honestly didn't think it be good for my line of work but i was wrong.I use it for 8 hours at work and battery holds up at about 60-75% volume.It charges in less than a hour at least that's my experience.Its also a great gift.I dont have 2 otherwise I can play them both in stereo mode.I didn't use that feature but its available.",
+            "images": [
+                "./img/comments/comment_1/comment-1-1.jpg",
+                "./img/comments/comment_1/comment-1-2.jpg",
+                "./img/comments/comment_1/comment-1-3.jpg",
+                "./img/comments/comment_1/comment-1-4.jpg",
+                "./img/comments/comment_1/comment-1-5.jpg",
+                "./img/comments/comment_1/comment-1-6.jpg"
+            ]
+        },
+        {
+            "header": "Powerful and stylish little speaker",
+            "name": "Bunbun88",
+            "time": "2 months ago",
+            "text": "An excellent little speaker! So impressed by this JBL speaker, it's so powerful without becoming tinny or distorted with increased volume. It's a durable exterior and I love the little loop for attaching to bags for days out. Really great design and seems like it will last. Very easy to set up it took seconds to connect. Easy to use with simple buttons and charges fast I find that the battery gas lasts days we have had it on holiday and take it for drives , days out etc and only charged it once all week. I love it and know i will use it all the time it's an ideal size for popping in/ on a bag . Lightweight.",
+            "images": [
+                "./img/comments/comment_2/comment-2-1.jpg",
+                "./img/comments/comment_2/comment-2-2.jpg",
+                "./img/comments/comment_2/comment-2-3.jpg",
+                "./img/comments/comment_2/comment-2-4.jpg",
+                "./img/comments/comment_2/comment-2-5.jpg",
+                "./img/comments/comment_2/comment-2-6.jpg"
+            ]
+        },
+        {
+            "header": "Wow amazing sound! In a small portable",
+            "name": "Charge123",
+            "time": "4 months ago",
+            "text": "Absolutely amazing for listening on the go! And anyplace you can think of It sounds just as good as the charge 5 but in a smaller package really am enjoying enjoying it, especially after the software update on the JBL portable app definitely a must have for your portable",
+            "images": [
+                "./img/comments/comment_3/comment-3-1.jpg",
+                "./img/comments/comment_3/comment-3-2.jpg",
+                "./img/comments/comment_3/comment-3-3.jpg",
+                "./img/comments/comment_3/comment-3-4.jpg",
+                "./img/comments/comment_3/comment-3-5.jpg",
+                "./img/comments/comment_3/comment-3-6.jpg"
+            ]
+        },
+        {
+            "header": "Small powerhouse",
+            "name": "JBL party house",
+            "time": "4 months ago",
+            "text": "Amazing sounds for such a small speaker, it has clear sounds with just the right amount bass with a beautiful compact design. Buttons are very easy to access with the battery life light just on thr bottom left side. The JBL app let's you even control more features that even makes it louder than it already is. This little speaker is a must have for people who like to travel light with incredible sounds everyone will hear and enjoy.",
+            "images": [
+                "./img/comments/comment_4/comment-4-1.jpg",
+                "./img/comments/comment_4/comment-4-2.jpg",
+                "./img/comments/comment_4/comment-4-3.jpg",
+                "./img/comments/comment_4/comment-4-4.jpg",
+                "./img/comments/comment_4/comment-4-5.jpg",
+                "./img/comments/comment_4/comment-4-6.jpg"
+            ]
+        },
+        {
+            "header": "Amazing Little Speaker - Perfect In So Many Ways",
+            "name": "golfcat",
+            "time": "4 months ago",
+            "text": "The speaker itself is incredibly compact (see pictures). At less than 4 inches wide and about 1.5 inches thick, it's a great companion to have wherever you go. It stood out the most while golfing. I bought a small carabiner clip to attach the speaker to my golf bag and I can't describe how perfect it was: out of the way, terrific and clear sound with deep bass and plenty of volume. The speaker easily lasted the entire round and most of the way into a round the next day. Also, I found this speaker to be extremely nice to bring hiking, working in the garage, and cleaning up around the house. I was very pleasantly surprised to hear the quality of the sound (even at high volumes) in an array of spaces and the speaker had plenty of power to keep going. Anyone looking for anything from a small desk speaker to a tag along for adventures, this speaker is the right one.",
+            "images": [
+                "./img/comments/comment_5/comment-5-1.jpg",
+                "./img/comments/comment_5/comment-5-2.jpg",
+                "./img/comments/comment_5/comment-5-3.jpg",
+                "./img/comments/comment_5/comment-5-4.jpg",
+                "./img/comments/comment_5/comment-5-5.jpg",
+                "./img/comments/comment_5/comment-5-6.jpg"
+            ]
+        }
+    ],
+    "footerText": "© 2024 Harman International Industries, Incorporated. All rights reserved.",
+    "buyButtonText": "buy now (£9.99)"
 }

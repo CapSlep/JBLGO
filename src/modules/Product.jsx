@@ -1,8 +1,22 @@
 import { useData } from "../DataContext"; // Import the custom hook
 import Slider from "./Slider";
 
+import { useState } from "react";
+
 export default function Product() {
     const data = useData(); // Access data from the context
+    let chosenProduct = data.products.product_1;
+    const [product, setProduct] = useState(chosenProduct);
+
+    function handleColorSelection(selectedName) {
+        const filteredProducts = Object.values(data.products).filter(
+            (product) => {
+                return product.name === selectedName;
+            }
+        );
+
+        setProduct(filteredProducts[0]); // Assuming you want to set the first match
+    }
 
     return (
         <section className="product__block">
@@ -25,7 +39,42 @@ export default function Product() {
                     <div className="price-old">{data.oldPrice}</div>
                 </div>
             </div>
-            <Slider></Slider>
+            <Slider slidesToShow={product.slider}></Slider>
+            <div className="product__info container">
+                <div className="color__selection flex-row">
+                    {Object.values(data.products).map((product) => {
+                        return (
+                            <button
+                                className="selector__button"
+                                key={product.name}
+                                onClick={() => {
+                                    handleColorSelection(product.name);
+                                }}
+                            >
+                                <img
+                                    src={product.selectorIcon}
+                                    alt={product.name}
+                                />
+                            </button>
+                        );
+                    })}
+                </div>
+                <div className="product__features">
+                    <ul>
+                        {data.productFeatures.map((feature, index) => {
+                            return <li key={index}>{feature}</li>;
+                        })}
+                    </ul>
+                </div>
+                <div className="product__availability">
+                    {data.productAvailabillity}
+                </div>
+                <div className="product__buy-reason">
+                    {data.buyReasons.map((reason, index) => {
+                        return <span key={index}>{reason}</span>;
+                    })}
+                </div>
+            </div>
         </section>
     );
 }

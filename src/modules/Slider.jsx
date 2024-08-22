@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-export default () => {
+export default ({ slidesToShow }) => {
     return (
         <Swiper
             // install Swiper modules
@@ -21,10 +21,17 @@ export default () => {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
         >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+            {slidesToShow.map((slide, index) => {
+                return (
+                    <SwiperSlide key={index}>
+                        <img src={slide} alt="" />
+                    </SwiperSlide>
+                );
+            })}
+            {/* <SwiperSlide>Slide 1</SwiperSlide> */}
+            <div className="cerificate">
+                <img src="./img/slides/certificate.webp" alt="" />
+            </div>
         </Swiper>
     );
 };
