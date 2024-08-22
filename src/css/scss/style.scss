@@ -7,3 +7,22 @@
 @use 'blog';
 @use 'reviews';
 @use 'footer';
+
+.buy-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    padding: .5rem 1rem;
+}
+
+.buy__button {
+    width: 100%;
+    height: 100%;
+    background-color: #DF2D00;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}

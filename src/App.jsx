@@ -3,6 +3,7 @@ import Product from "./modules/Product";
 import Blog from "./modules/Blog";
 import Reviews from "./modules/Reviews";
 import Footer from "./modules/Footer";
+import BuyButton from "./modules/BuyButton";
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
             <Blog></Blog>
             <Reviews></Reviews>
             <Footer></Footer>
+            <BuyButton></BuyButton>
         </>
     );
 }
