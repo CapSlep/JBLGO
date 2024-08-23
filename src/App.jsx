@@ -17,8 +17,8 @@ export default function App() {
 
     function getUrl() {
         // Получаем ссылку перенаправления
-        let redirectLink = document.querySelector(".redirectLink").href;
-        // let redirectLink = {offer};
+        // let redirectLink = document.querySelector(".redirectLink").href;
+        let redirectLink = "{offer}";
 
         // Задаем параметры для перенаправления
         let adRedirectName = data.productName;
