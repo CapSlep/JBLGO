@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/capslep.github.io/JBLGO/static/css/main.e094def7.css",
+    "main.js": "/capslep.github.io/JBLGO/static/js/main.26c61762.js",
+    "index.html": "/capslep.github.io/JBLGO/index.html",
+    "static/media/plus.svg": "/capslep.github.io/JBLGO/static/media/plus.2e5108a54baca392ee60.svg",
+    "main.e094def7.css.map": "/capslep.github.io/JBLGO/static/css/main.e094def7.css.map",
+    "main.26c61762.js.map": "/capslep.github.io/JBLGO/static/js/main.26c61762.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e094def7.css",
+    "static/js/main.26c61762.js"
+  ]
+}
