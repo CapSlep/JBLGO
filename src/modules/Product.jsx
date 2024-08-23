@@ -1,12 +1,8 @@
 import { useData } from "../DataContext"; // Import the custom hook
 import Slider from "./Slider";
 
-import { useState } from "react";
-
-export default function Product() {
+export default function Product({ product, setProduct }) {
     const data = useData(); // Access data from the context
-    let chosenProduct = data.products.product_1;
-    const [product, setProduct] = useState(chosenProduct);
 
     function handleColorSelection(selectedName) {
         const filteredProducts = Object.values(data.products).filter(
