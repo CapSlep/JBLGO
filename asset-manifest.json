@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/JBLGO/static/css/main.ba463396.css",
-    "main.js": "/JBLGO/static/js/main.26c61762.js",
+    "main.js": "/JBLGO/static/js/main.bf72fe44.js",
     "index.html": "/JBLGO/index.html",
     "static/media/plus.svg": "/JBLGO/static/media/plus.2e5108a54baca392ee60.svg",
     "main.ba463396.css.map": "/JBLGO/static/css/main.ba463396.css.map",
-    "main.26c61762.js.map": "/JBLGO/static/js/main.26c61762.js.map"
+    "main.bf72fe44.js.map": "/JBLGO/static/js/main.bf72fe44.js.map"
   },
   "entrypoints": [
     "static/css/main.ba463396.css",
-    "static/js/main.26c61762.js"
+    "static/js/main.bf72fe44.js"
   ]
 }
