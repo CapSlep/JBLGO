@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/JBLGO/static/css/main.ba463396.css",
-    "main.js": "/JBLGO/static/js/main.bf72fe44.js",
-    "index.html": "/JBLGO/index.html",
-    "static/media/plus.svg": "/JBLGO/static/media/plus.2e5108a54baca392ee60.svg",
-    "main.ba463396.css.map": "/JBLGO/static/css/main.ba463396.css.map",
-    "main.bf72fe44.js.map": "/JBLGO/static/js/main.bf72fe44.js.map"
+    "main.css": "./static/css/main.17a7d9b4.css",
+    "main.js": "./static/js/main.bf72fe44.js",
+    "index.html": "./index.html",
+    "static/media/plus.svg": "./static/media/plus.2e5108a54baca392ee60.svg",
+    "main.17a7d9b4.css.map": "./static/css/main.17a7d9b4.css.map",
+    "main.bf72fe44.js.map": "./static/js/main.bf72fe44.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba463396.css",
+    "static/css/main.17a7d9b4.css",
     "static/js/main.bf72fe44.js"
   ]
 }
