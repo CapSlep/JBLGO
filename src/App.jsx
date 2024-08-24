@@ -16,21 +16,28 @@ export default function App() {
     const [product, setProduct] = useState(chosenProduct);
 
     function getUrl() {
-        // Получаем ссылку перенаправления
-        // let redirectLink = document.querySelector(".redirectLink").href;
-        let redirectLink = "{offer}";
+        // Retrieve the macro from the button's data-attribute
+        // const offerButton = document.querySelector(".checkout__button");
+        // const redirectLink = offerButton.getAttribute("data-offer");
 
-        // Задаем параметры для перенаправления
+        let redirectLink = document.querySelector("#redirectLink").href;
+
+        if (!redirectLink) {
+            console.error("Offer link not found");
+            return;
+        }
+
+        // Set parameters for redirection
         let adRedirectName = data.productName;
         let img_url = product.slider[0];
 
-        // Отправляем событие fbq
+        // Send the fbq event
         fbq("track", "InitiateCheckout");
 
-        // Проверяем, есть ли уже параметры в ссылке
+        // Check if the link already has parameters
         var separator = redirectLink.includes("?") ? "&" : "?";
 
-        // Перенаправляем с новыми параметрами
+        // Redirect with new parameters
         window.location.href =
             redirectLink +
             separator +
