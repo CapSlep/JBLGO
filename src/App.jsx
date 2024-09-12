@@ -9,6 +9,11 @@ import Facebook from "./modules/Facebook";
 import { useData } from "./DataContext"; // Import the custom hook
 import { useState } from "react";
 
+//popups imports
+import PopManager from "./modules/popups/PopManager";
+import StartupPop from "./modules/popups/StartupPop";
+import PromoPop from "./modules/popups/PromoPop";
+
 export default function App() {
     const data = useData();
 
@@ -21,6 +26,9 @@ export default function App() {
         // const redirectLink = offerButton.getAttribute("data-offer");
 
         let redirectLink = document.querySelector("#redirectLink").href;
+        let selectedProductPath = document.querySelector(
+            "#selectedProductPath"
+        ).src;
 
         if (!redirectLink) {
             console.error("Offer link not found");
@@ -29,7 +37,6 @@ export default function App() {
 
         // Set parameters for redirection
         let adRedirectName = data.productName;
-        let img_url = product.slider[0];
 
         // Send the fbq event
         fbq("track", "InitiateCheckout");
@@ -44,7 +51,7 @@ export default function App() {
             "adRedirectName=" +
             encodeURIComponent(adRedirectName) +
             "&adRedirectImg=" +
-            encodeURIComponent(img_url);
+            encodeURIComponent(selectedProductPath);
     }
 
     function buyHandler(event) {
@@ -52,6 +59,23 @@ export default function App() {
         // Вызываем функцию getUrl для изменения URL и перенаправления
         getUrl();
     }
+
+    const popupsHolder = {
+        popupTypes: {
+            SHOW_STARTUP: "startup",
+            SHOW_PROMO: "promo",
+        },
+        popups: [
+            {
+                popupType: "startup",
+                popupComponent: StartupPop,
+            },
+            {
+                popupType: "promo",
+                popupComponent: PromoPop,
+            },
+        ],
+    };
 
     return (
         <>
@@ -62,6 +86,17 @@ export default function App() {
             <Footer></Footer>
             <Facebook></Facebook>
             <BuyButton buyHandler={buyHandler}></BuyButton>
+
+            <PopManager
+                popupTypes={popupsHolder.popupTypes}
+                popupsToShow={popupsHolder.popups}
+                showStartup={true}
+            ></PopManager>
+            <img
+                id="selectedProductPath"
+                src={product.slider[0]}
+                style={{ display: "none" }}
+            />
         </>
     );
 }
