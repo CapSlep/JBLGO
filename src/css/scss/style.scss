@@ -8,6 +8,8 @@
 @use 'reviews';
 @use 'footer';
 @use 'pops';
+@use 'timer';
+@use 'notifications';
 
 /* ============================= GENERAL BLOCK ============================= */
 .buy-wrapper {
@@ -18,6 +20,7 @@
     height: 65px;
     background-color: #fff;
     padding: .5rem 1rem;
+    overflow: hidden;
 }
 
 .buy__button {
@@ -27,4 +30,36 @@
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
+    overflow: hidden;
+
+    &:after {
+        background: #fff;
+        content: "";
+        height: 155px;
+        left: -75px;
+        opacity: .2;
+        position: absolute;
+        top: -50px;
+        transform: rotate(35deg);
+        width: 50px;
+        animation: flash 6s infinite;
+    }
+}
+
+.buy__button:hover {
+    background-color: variables.$button-hover-color;
+}
+
+@keyframes flash {
+    0% {
+        left: -120%;
+    }
+
+    30% {
+        left: 120%;
+    }
+
+    100% {
+        left: 120%;
+    }
 }

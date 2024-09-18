@@ -5,6 +5,7 @@ import Reviews from "./modules/Reviews";
 import Footer from "./modules/Footer";
 import BuyButton from "./modules/BuyButton";
 import Facebook from "./modules/Facebook";
+import Notifications from "./modules/Notifications";
 
 import { useData } from "./DataContext"; // Import the custom hook
 import { useState } from "react";
@@ -87,6 +88,7 @@ export default function App() {
             <Facebook></Facebook>
             <BuyButton buyHandler={buyHandler}></BuyButton>
 
+            <Notifications product={product}></Notifications>
             <PopManager
                 popupTypes={popupsHolder.popupTypes}
                 popupsToShow={popupsHolder.popups}

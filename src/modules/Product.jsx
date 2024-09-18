@@ -1,5 +1,6 @@
 import { useData } from "../DataContext"; // Import the custom hook
 import Slider from "./Slider";
+import Timer from "./Timer";
 
 export default function Product({ product, setProduct }) {
     const data = useData(); // Access data from the context
@@ -62,6 +63,7 @@ export default function Product({ product, setProduct }) {
                         })}
                     </ul>
                 </div>
+                <Timer startTime={5}></Timer>
                 <div className="product__availability">
                     {data.productAvailabillity}
                 </div>

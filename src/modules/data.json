@@ -1,46 +1,46 @@
 {
     "productName": "JBL GO 4",
-    "oldPrice": "$989",
-    "newPrice": "$199",
+    "oldPrice": "R 869",
+    "newPrice": "R 200",
     "header": {
-        "shippingText": "Envío gratis y devoluciones gratis"
+        "shippingText": "Free shipping and free returns"
     },
     "productFeatures": [
-        "Sonido JBL Pro ultra portátil con bajos más potentes",
-        "Hasta 7 horas de duración de batería más 2 horas con el Playtime Boost",
-        "Resistente al agua y al polvo"
+        "Ultra-portable JBL Pro sound with more powerful bass",
+        "Up to 7 hours of battery life plus 2 hours with Playtime Boost",
+        "Waterproof and dustproof"
     ],
-    "productAvailabillity": "En stock. Entrega estimada en 3 a 4 días hábiles.",
+    "productAvailabillity": "In stock. Estimated delivery in 3 to 4 business days.",
     "buyReasons": [
-        "Envío gratis",
-        "Devoluciones gratis",
-        "Soporte de por vida"
+        "Free shipping",
+        "Free returns",
+        "Lifetime support"
     ],
     "blogs": [
         {
             "image": "./img/blog/blog1.webp",
-            "header": "Sonido JBL Pro ultra portátil con bajos más potentes",
-            "text": "No te dejes engañar por su pequeño tamaño. El JBL Go 4 ofrece un impresionante sonido JBL Pro con bajos potentes. Tus amigos no creerán cuánta calidad de sonido JBL Pro proviene de un altavoz tan pequeño."
+            "header": "Ultra-portable JBL Pro sound with more powerful bass",
+            "text": "Don't be fooled by its small size. The JBL Go 4 delivers impressive JBL Pro sound with powerful bass. Your friends won’t believe how much JBL Pro sound comes from such a small speaker."
         },
         {
             "image": "./img/blog/blog2.webp",
-            "header": "Hasta 7 horas de duración de batería más 2 horas con el Playtime Boost",
-            "text": "No te preocupes por detalles menores como cargar la batería. El JBL Go 4 te ofrece hasta 7 horas de duración con una sola carga. Solo presiona Playtime Boost para extender la duración, añadiendo hasta 2 horas adicionales a la vida de la batería. Ajusta y optimiza el rendimiento para un sonido más fuerte y claro."
+            "header": "Up to 7 hours of battery life plus 2 hours with Playtime Boost",
+            "text": "Forget about the little things like charging. The JBL Go 4 offers up to 7 hours of battery life on a single charge. Just hit Playtime Boost to extend the life, adding up to 2 more hours of playtime. Adjust and optimize performance for louder, clearer sound."
         },
         {
             "image": "./img/blog/blog3.webp",
-            "header": "Resistente al agua y al polvo",
-            "text": "El JBL Go 4, con su estándar IP67 de resistencia al agua y al polvo, garantiza que este altavoz portátil puede enfrentar casi cualquier entorno, desde una fiesta en la piscina hasta un picnic en la playa."
+            "header": "Waterproof and dustproof",
+            "text": "With its IP67 water and dust resistance, the JBL Go 4 ensures that this portable speaker can handle almost any environment, from pool parties to beach picnics."
         }
     ],
-    "reviewsHeader": "Opiniones",
-    "reviewValidation": "Opinión incentivada",
+    "reviewsHeader": "Reviews",
+    "reviewValidation": "Incentivized review",
     "comments": [
         {
-            "header": "Tamaño pequeño, gran sonido",
+            "header": "Small size, big sound",
             "name": "68eight",
-            "time": "Hace 4 meses",
-            "text": "Excelente altavoz portátil. Este pequeño dispositivo es lo suficientemente compacto como para llevarlo a todas partes sin ocupar espacio. Es muy robusto y se siente de buena calidad. Es perfecto para mi trabajo en un entorno industrial. La conexión Bluetooth es sin problemas. Los botones son fáciles de entender y usar. Tiene un gancho trenzado bien hecho. El sonido es excelente para su tamaño, honestamente no pensé que sería bueno para mi trabajo, pero me equivoqué. Lo uso durante 8 horas en el trabajo y la batería aguanta bien con un volumen del 60-75%. Se recarga en menos de una hora, al menos esa es mi experiencia. También es un excelente regalo. No tengo dos, de lo contrario podría hacerlos funcionar en modo estéreo. No he usado esa funcionalidad, pero está disponible.",
+            "time": "4 months ago",
+            "text": "Excellent portable speaker. This little device is compact enough to carry anywhere without taking up space. It's very sturdy and feels high quality. Perfect for my work in an industrial environment. The Bluetooth connection is flawless. The buttons are easy to understand and use. It has a well-made braided hook. The sound is great for its size, honestly, I didn't think it would be good for my work, but I was wrong. I use it for 8 hours at work, and the battery holds up well at 60-75% volume. Recharges in less than an hour, at least that's my experience. It's also a great gift. I don't have two, or I could make them work in stereo mode. I haven't used that feature, but it's available.",
             "images": [
                 "./img/comments/comment_1/comment-1-1.jpg",
                 "./img/comments/comment_1/comment-1-2.jpg",
@@ -51,10 +51,10 @@
             ]
         },
         {
-            "header": "Pequeño altavoz potente y elegante",
+            "header": "Powerful and stylish small speaker",
             "name": "Bunbun88",
-            "time": "Hace 2 meses",
-            "text": "¡Un excelente pequeño altavoz! Tan impresionado por este altavoz JBL, es tan potente sin volverse metálico o distorsionado al aumentar el volumen. Tiene un exterior duradero y me encanta el pequeño lazo para sujetarlo a las mochilas para salidas. Muy buen diseño y parece duradero. Muy fácil de configurar, tomó unos segundos conectarlo. Fácil de usar con botones simples y se recarga rápidamente, la batería me duró varios días, lo llevamos de vacaciones y para viajes en coche, salidas, etc., y solo lo cargamos una vez en toda la semana. Me encanta y sé que lo usaré todo el tiempo, es un tamaño ideal para deslizarlo en una bolsa. Ligero.",
+            "time": "2 months ago",
+            "text": "A fantastic little speaker! I'm so impressed by this JBL speaker, it's so powerful without becoming tinny or distorted when increasing the volume. It has a durable exterior, and I love the little loop for attaching to backpacks for outings. Great design and seems durable. Very easy to set up, took seconds to connect. Simple to use with easy buttons, and it charges quickly. The battery lasted me for several days, we took it on holiday for road trips and outings, etc., and only charged it once the entire week. I love it and know I’ll be using it all the time, the perfect size to slip into a bag. Lightweight.",
             "images": [
                 "./img/comments/comment_2/comment-2-1.jpg",
                 "./img/comments/comment_2/comment-2-2.jpg",
@@ -65,38 +65,38 @@
             ]
         },
         {
-            "header": "¡Wow, sonido increíble! En un pequeño portátil",
+            "header": "Wow, amazing sound in a small portable",
             "name": "Charge123",
-            "time": "Hace 4 meses",
-            "text": "¡Absolutamente increíble para escuchar sobre la marcha! Y en cualquier lugar que puedas imaginar. Suena tan bien como el Charge 5 pero en un formato más pequeño. Realmente lo disfruto, especialmente después de la actualización de software en la aplicación JBL portable. Es un imprescindible para tu portátil.",
+            "time": "4 months ago",
+            "text": "Absolutely amazing for on-the-go listening! And anywhere you can imagine. Sounds just as good as the Charge 5 but in a smaller form. I really enjoy it, especially after the software update in the JBL Portable app. A must-have for your portable setup.",
             "images": [
                 "./img/comments/comment_3/comment-3-1.jpg",
                 "./img/comments/comment_3/comment-3-2.jpg",
-                "./img/comments/comment_3/comment-3-3.jpg",
+                "./img/comments/comment-3/comment-3-3.jpg",
                 "./img/comments/comment_3/comment-3-4.jpg",
                 "./img/comments/comment_3/comment-3-5.jpg",
                 "./img/comments/comment_3/comment-3-6.jpg"
             ]
         },
         {
-            "header": "Pequeño pero poderoso",
+            "header": "Small but mighty",
             "name": "JBL party house",
-            "time": "Hace 4 meses",
-            "text": "Sonido increíble para un altavoz tan pequeño, tiene sonidos claros con el nivel justo de bajos y un diseño compacto y hermoso. Los botones son muy fáciles de acceder con el indicador de batería justo en la parte inferior izquierda. La aplicación JBL incluso te permite controlar más funciones que lo hacen aún más potente. Este pequeño altavoz es un imprescindible para quienes les gusta viajar ligero con sonidos increíbles que todos escucharán y disfrutarán.",
+            "time": "4 months ago",
+            "text": "Incredible sound for such a small speaker, it has clear sounds with just the right amount of bass and a beautiful compact design. The buttons are easy to access, with the battery indicator on the bottom left. The JBL app even lets you control more functions, making it even more powerful. This little speaker is a must-have for those who like to travel light with incredible sounds that everyone will hear and enjoy.",
             "images": [
                 "./img/comments/comment_4/comment-4-1.jpg",
                 "./img/comments/comment_4/comment-4-2.jpg",
-                "./img/comments/comment_4/comment-4-3.jpg",
+                "./img/comments/comment-4/comment-4-3.jpg",
                 "./img/comments/comment_4/comment-4-4.jpg",
                 "./img/comments/comment_4/comment-4-5.jpg",
                 "./img/comments/comment_4/comment-4-6.jpg"
             ]
         },
         {
-            "header": "Pequeño altavoz increíble - Perfecto de muchas maneras",
+            "header": "Amazing little speaker – Perfect in many ways",
             "name": "golfcat",
-            "time": "Hace 4 meses",
-            "text": "El altavoz en sí es increíblemente compacto (ver fotos). Con menos de 10 cm de ancho y aproximadamente 3,8 cm de grosor, es un gran compañero para llevar a donde vayas. Fue el mejor durante el golf. Compré un pequeño mosquetón para sujetar el altavoz a mi bolsa de golf y no puedo describir lo perfecto que fue: fuera del camino, sonido increíble y claro con bajos profundos y mucho volumen. El altavoz duró fácilmente toda la partida y la mayor parte del recorrido al día siguiente. Además, encontré este altavoz extremadamente agradable para llevar en caminatas, trabajar en el garaje y hacer la limpieza en casa. Me sorprendió gratamente la calidad del sonido (incluso a alto volumen) en varios espacios y el altavoz tenía suficiente potencia para seguir. Para aquellos que buscan un pequeño altavoz de escritorio o un compañero para aventuras, este altavoz es el indicado.",
+            "time": "4 months ago",
+            "text": "The speaker itself is incredibly compact (see photos). Less than 10 cm wide and about 3.8 cm thick, it's a great companion for wherever you go. It was perfect for golfing. I bought a small carabiner to attach the speaker to my golf bag, and I can’t describe how perfect it was: out of the way, incredible clear sound with deep bass and plenty of volume. The speaker easily lasted the whole game and most of the ride the next day. Additionally, I found this speaker extremely enjoyable to carry on hikes, work in the garage, and clean around the house. I was pleasantly surprised by the sound quality (even at high volume) in various spaces, and the speaker had enough power to keep up. For those looking for a small desk speaker or an adventure companion, this speaker is the one.",
             "images": [
                 "./img/comments/comment_5/comment-5-1.jpg",
                 "./img/comments/comment_5/comment-5-2.jpg",
@@ -107,11 +107,31 @@
             ]
         }
     ],
-    "footerText": "© 2024 Harman International Industries, Incorporated. Todos los derechos reservados.",
-    "buyButtonText": "comprar ahora ($199)",
-    "startupPopText": "¡Celebra el aniversario de la tienda en línea de JBL en México con una oferta increíble!",
-    "startupPopTextTwo": "Aprovecha un 80% de descuento en la bocina JBL GO 4.",
-    "startupPopButton": "Aprovechar El Descuento",
+    "footerText": "© 2024 Harman International Industries, Incorporated. All rights reserved.",
+    "buyButtonText": "Buy now (R220)",
+    "startupPopText": "Celebrate the JBL online store anniversary in South Africa with an incredible deal!",
+    "startupPopTextTwo": "Enjoy an 80% discount on the JBL GO 4 speaker.",
+    "startupPopButton": "Grab the Deal",
+    "notifications": [
+        {
+            "img": "./img/slides/slide_1/slide-1-1.webp",
+            "location": "Cape Town, South Africa",
+            "name": "Juan Pérez",
+            "text": "Just bought a pack of Clara lactose-free milk",
+            "from": "from"
+        },
+        {
+            "img": "./img/slides/slide_2/slide-2-1.webp",
+            "location": "Johannesburg, South Africa",
+            "name": "María López",
+            "text": "Just bought a pack of Clara lactose-free milk",
+            "from": "from"
+        }
+    ],
+    "timer": {
+        "timerSetsStart": "The product is almost out of stock. Your turn to purchase is reserved for",
+        "timerSetsEnd": "minutes."
+    },
     "products": {
         "product_1": {
             "name": "black",

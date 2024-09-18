@@ -560,6 +560,101 @@ header nav {
   background-color: #c22700;
 }
 
+/* ============================= FOOTER BLOCK ============================= */
+.timer {
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.timer__countdown {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #25303B;
+  gap: 0.5rem;
+}
+
+.timer__text-promo {
+  color: #C21919;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+  text-align: center;
+  font-weight: 600;
+}
+
+.timer__text-strong {
+  font-weight: 700;
+}
+
+.timer__colon {
+  color: #67B4E6;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* ============================================================ NOTIFIcATIONS BLOCK ============================================================ */
+.notification__wrapper {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px #d3d3d3;
+  transition: all 2s ease;
+  align-items: flex-start;
+  z-index: 20;
+}
+
+@media (max-width: 768px) {
+  .notification__wrapper {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+.notification__panel {
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+  gap: 5px;
+}
+
+.notification__hidden {
+  right: -20rem;
+  opacity: 0;
+}
+
+.notification__shown {
+  right: 1rem;
+  opacity: 1;
+}
+
+.notification__location {
+  text-decoration: underline;
+}
+
+.notification__header,
+.notification__footer {
+  gap: 5px;
+}
+
+.notification__header {
+  font-size: 0.9rem;
+}
+
+.notification__img-wrapper {
+  width: 4rem;
+  height: 4rem;
+}
+
+.notification__img-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 /* ============================= GENERAL BLOCK ============================= */
 .buy-wrapper {
   position: fixed;
@@ -569,6 +664,7 @@ header nav {
   height: 65px;
   background-color: #fff;
   padding: 0.5rem 1rem;
+  overflow: hidden;
 }
 
 .buy__button {
@@ -578,4 +674,33 @@ header nav {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+  overflow: hidden;
+}
+.buy__button:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  width: 50px;
+  animation: flash 6s infinite;
+}
+
+.buy__button:hover {
+  background-color: #c22700;
+}
+
+@keyframes flash {
+  0% {
+    left: -120%;
+  }
+  30% {
+    left: 120%;
+  }
+  100% {
+    left: 120%;
+  }
 }
